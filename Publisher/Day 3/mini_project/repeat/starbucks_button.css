@@ -1,0 +1,49 @@
+
+
+
+.main-green{
+    width: 330px;
+    height: 45px;
+    background-color: #4aa366;
+
+    border-radius: 6px;
+    padding: center;
+    border: none;
+
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.white{
+    width: 330px;
+    height: 45px;
+    background-color: white;
+
+    border-radius: 6px;
+    padding: center;
+    border-color: green;
+    border
+
+    color: green;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.dark-green{
+    width: 330px;
+    height: 45px;
+    background-color: #1d4d4f;
+
+    border-radius: 6px;
+    padding: center;
+    border: none;
+
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}

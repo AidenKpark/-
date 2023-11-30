@@ -1,0 +1,33 @@
+.box{
+    /* 자식들 배치화 */
+    display: flex;
+    /* 세로로 배치 */
+    flex-direction: column;
+    /*  자식들 사이에 간격 주기 */
+    gap: 10px;
+}
+
+.button{
+    width: 330px;
+    height: 45px;
+
+    border: none;
+    border-radius: 4px;
+}
+
+.main{
+    color: white;
+    background-color: #4AA366;
+
+}
+
+.white{
+    color: #4AA366;
+    background-color: white;
+    border: 1px solid #4AA366;
+}
+
+.dark{
+    color: white;
+    background-color: #1D4D4F;
+}
