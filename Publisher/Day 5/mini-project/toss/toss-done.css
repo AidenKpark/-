@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+header{
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+nav{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-button{
+
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+
+    font-size: 16px;
+    font-family: 'Pretendard-Regular';
+
+    padding: 14px 16px;
+
+}
+
+.link-button:hover{
+    background-color: #0000000d;
+}
+
+.logo-box{
+    width: 70px;
+    height: 100%;
+}
+.logo-box > img{
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 150px;
+
+    background-image: url(back.jpeg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+
+.hero{
+    width: 40%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+
+
+.hero-title{
+    text-align: center;
+    font-family: 'Pretendard-SemiBold';
+    font-size: 50px;
+    line-height: 1.4;
+}
+
+.download-button{
+    height: 45px;
+    width: fit-content; 
+    background-color: #000c1ecc;
+    padding: 11px 20px 11px 20px;
+
+    font-size: 17px;
+    font-family: 'Pretendard-Regular';
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+}
+
+
+.download-button:hover{
+    opacity: 0.8;
+}
