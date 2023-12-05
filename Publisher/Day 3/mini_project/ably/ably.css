@@ -9,11 +9,12 @@
     /* vw : viewport (기기) */
     /* px vw vh %(css 단위 이론 때 추가 설명 할 것임) */
     width: 100vw;
-    height: 100vh;
+    height: 300vh;
 
 }
 
 .navi-box{
+    position: fixed;
     height: 80px;
     width: 100vw;
 }
@@ -39,6 +40,7 @@
 
 .half-box > img{
     height: 100%;
+    width: 160px;
 }
 
 
